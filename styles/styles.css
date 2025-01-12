@@ -1,0 +1,361 @@
+
+.fira-sans-normal> {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:"width" 100;
+}
+
+button:hover {
+opacity: 0.9;
+background-color:red;
+}
+
+/* banner bangladesh 2.0 */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    background-color: #C6E4D6; 
+    align-items: center;
+    position: static;
+    width: 1280px;
+    height: 560px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64;
+    padding: 80px 100px 80px 100px;
+    overflow: hidden;
+    border-radius: 24px;
+}
+.left column {
+    width: 622px;
+    height: 28px;
+    top: 117.5px;
+    left: 59.99px;
+    text-align: left;
+    align-items: left;
+}
+.banner-image {
+    position: static;
+    align-items: right;
+    width: 474.03px;
+    height: 40
+
+}
+.bd {  
+font-weight: 500px;
+font-size: 24px;
+height: 29px;
+word-spacing: 0%;
+text-align: left;
+color:rgba(14, 14, 14, 0.5);
+}
+
+.idea {
+font-weight: 700px;
+font-size: 56px;
+height: 67px;
+text-align: left;
+color:rgb(14, 14, 14);
+
+}
+.btn {
+   font-weight: 600px;
+   font-size: 18px;
+   height: 22px;
+   text-align: left;
+   color: rgb(255, 255, 255);
+   margin-top: 90px;
+   background-color: rgb(0, 106, 80);
+   border: none;
+   border-radius: 24px;
+}
+/* sections */
+.section-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.section-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+/* visions section styles */
+.visions-cards{
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24;
+    padding: 0px;
+    
+}
+.vision-card-1 {
+    background: rgba(84, 144, 245, 0.2);
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+.vision-card-2 {
+    background: rgb(198, 228, 214);
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+.vision-card-3 {
+    background: rgb(247, 235, 207);
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+.btn-1{
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+}
+.btn-2{
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+}
+.btn-3{
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+}
+.visions-cards{
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24;
+    padding: 0px;
+    
+}
+/* quote */
+.quote-section{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.quote-section{
+    background: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+.quote-author{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+/* news */
+.news-cards {
+   background: rgb(255, 255, 255);
+    overflow: hidden;
+
+}
+.news-image {
+    position: static;
+    width: 408px;
+    height: 306px;
+    object-fit: cover;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 32px;
+}
+.news-card-1 {
+   box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+    flex-direction: row;
+    overflow: hidden;
+
+}
+.news-card-2 {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+    flex-direction: row-reverse;
+    overflow: hidden;
+}
+.news-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32;
+    padding: 0px;    
+   
+}
+.news-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+}
+.news-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+/*donation-box */
+.donation-box {
+    width: 1200px;
+    height: 464px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32;
+    padding: 0px;
+}
+.donation-buttons {
+    position: static;
+    width: 1071px;
+    height: 128px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24;
+    padding: 0px;
+    margin-bottom: 50px;
+
+}
+.btn-00 {
+    position: static;
+    width: 240px;
+    height: 128px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.btn-200 {
+    position: static;
+    width: 240px;
+    height: 128px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.amount {
+    position: static;
+    width: 1032px;
+    height: 64px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    position: static;
+    align-items: center;
+    gap: 24;
+    padding: 20px 40px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: none;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    
+
+}
+
+/*The-end-form */
+.yo-footer {
+   position:static;
+   width: 1280px;
+   height: 395px;
+   border-radius: 24px;
+   background-color: rgb(198, 228, 214);
+   display: flex;
+   flex-direction:column;
+   justify-content: center;
+   align-items: center;
+   gap: 64;
+   margin-top: 100px;
+   padding: 80px 100px 80px 100px;
+
+}
+.newsletter-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16;
+    padding: 0px;
+}
+.newsletter-form {
+    position: static;
+    width: 150px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48;
+    padding: 0px;
+    border-radius: 24px;
+}
+.form-subtitle {
+    font-size: 14px;
+    color:deeppink
+    }
+
