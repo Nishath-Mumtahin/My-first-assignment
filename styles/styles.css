@@ -363,9 +363,14 @@ color:rgb(14, 14, 14);
     font-size: 14px;
     color:deeppink
     }
-
     /* input-feild-edit */
 .input-feild {
-    width: 300px;
-    height: 40px;
+    position: static;
+    width: 1032px;
+    height: 64px;
+    padding: 2px;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 2px;
+    outline: none;
 }
