@@ -1,4 +1,9 @@
-
+/* margin-padding */
+*/ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .fira-sans-normal> {
   font-family: "Open Sans", serif;
   font-optical-sizing: auto;
